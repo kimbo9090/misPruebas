@@ -1,6 +1,6 @@
 import string
 # 26
-# my cat is big
+# my cat is very big
 def is_pangram(sentence):
     myList = (map(chr, range(97, 123)))
     dictABC = { i : 0 for i in myList }
